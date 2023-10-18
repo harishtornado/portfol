@@ -1,0 +1,62 @@
+.rb {
+  border-radius: 20px;
+  background: #d9d9d9;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.About_header {
+  position: absolute;
+  color: #cbcbcb;
+  font-size: 150px;
+  font-weight: 700;
+  bottom: 0;
+  left: 1rem;
+}
+
+.About_desc {
+  width: 350px;
+}
+
+.About_tabs {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  gap: 2rem;
+}
+
+.About_tabs .row1,
+.row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2rem;
+}
+
+.row2 {
+  align-items: start;
+}
+
+.certificates {
+  width: 325px;
+  height: 450px;
+}
+
+.bio {
+  width: 375px;
+  height: 300px;
+}
+
+.projects {
+  width: 275px;
+  height: 180px;
+}
+.skills {
+  width: 275px;
+  height: 225px;
+}

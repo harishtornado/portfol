@@ -1,0 +1,11 @@
+
+.about_btn {
+    padding: 1em 4em;
+    background: rgb(35, 153, 255);
+    border-radius: 8px;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    color: #ffffff;
+    font-weight: 900;
+}
