@@ -42,21 +42,21 @@
   align-items: start;
 }
 
-.certificates {
+.certificates_tab {
   width: 325px;
   height: 450px;
 }
 
-.bio {
+.bio_tab {
   width: 375px;
   height: 300px;
 }
 
-.projects {
+.projects_tab {
   width: 275px;
   height: 180px;
 }
-.skills {
+.skills_tab {
   width: 275px;
   height: 225px;
 }

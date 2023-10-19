@@ -17,18 +17,18 @@ const About = () => {
       <div className="About_tabs">
         <div className="row1">
           <Link to="/bio">
-            <div className="bio rb"></div>
+            <div className="bio_tab rb"></div>
           </Link>
           <Link to="/skills">
-            <div className="skills rb"></div>
+            <div className="skills_tab rb"></div>
           </Link>
         </div>
         <div className="row2">
           <Link to="/projects">
-            <div className="projects rb"></div>
+            <div className="projects_tab rb"></div>
           </Link>
           <Link to="/certificates">
-            <div className="certificates rb"></div>
+            <div className="certificates_tab rb"></div>
           </Link>
         </div>
       </div>
