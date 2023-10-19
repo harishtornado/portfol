@@ -41,15 +41,15 @@ const Certificates = () => {
         <div className="header">Select</div>
         <div className="categories">
           <ul className="category_list">
-            {certificates.map((project, index) => (
+            {certificates.map((certificate, index) => (
               <li
                 className={`category ${
-                  option === project.name ? "active" : null
+                  option === certificate.name ? "active" : null
                 }`}
                 key={index}
-                onClick={() => setOption(project.name)}
+                onClick={() => setOption(certificate.name)}
               >
-                {project.name}
+                {certificate.name}
               </li>
             ))}
           </ul>
