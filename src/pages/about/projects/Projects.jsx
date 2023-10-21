@@ -9,31 +9,31 @@ const root = document.querySelector(":root");
 const projects = [
   {
     name: "Projects 1",
-    imgurl: "https://",
+    imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
     link: "https://",
     desc: "hello",
   },
   {
     name: "Projects 1",
-    imgurl: "https://",
+    imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
     link: "https://",
     desc: "hello",
   },
   {
     name: "Projects 1",
-    imgurl: "https://",
+    imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
     link: "https://",
     desc: "hello",
   },
   {
     name: "Projects 1",
-    imgurl: "https://",
+    imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
     link: "https://",
     desc: "hello",
   },
   {
     name: "Projects 1",
-    imgurl: "https://",
+    imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
     link: "https://",
     desc: "hello",
   },
