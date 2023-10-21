@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import back from "../../../assets/icons/back.png";
+
 import { Link } from "react-router-dom";
 import next from "../../../assets/icons/right-arrow.png";
 import prev from "../../../assets/icons/left-arrow.png";
@@ -59,11 +59,6 @@ const Projects = () => {
 
   return (
     <div className="Projects container">
-      <Link to="/about">
-        <div className="back_btn">
-          <img src={back} alt="left-arrow" width={20} height={20} />
-        </div>
-      </Link>
       <div className="slide_btns">
         <div className="prev btn" onClick={() => slideLeft()}>
           <img src={prev} alt="prev_btn" />
@@ -76,9 +71,8 @@ const Projects = () => {
         <div className="slides">
           {projects.map((project, index) => (
             <div
-              className={`slide ${
-                Math.abs(slide / 380) === index ? "open" : null
-              }`}
+              className={`slide ${Math.abs(slide / 380) === index ? "open" : null
+                }`}
               key={index}
             >
               <div className="image_container">

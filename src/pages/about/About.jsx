@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./about.css";
 
 const About = () => {
@@ -16,18 +16,18 @@ const About = () => {
       </div>
       <div className="About_tabs">
         <div className="row1">
-          <Link to="/bio">
+          <Link to="bio">
             <div className="bio_tab rb"></div>
           </Link>
-          <Link to="/skills">
+          <Link to="skills">
             <div className="skills_tab rb"></div>
           </Link>
         </div>
         <div className="row2">
-          <Link to="/projects">
+          <Link to="projects">
             <div className="projects_tab rb"></div>
           </Link>
-          <Link to="/certificates">
+          <Link to="certificates">
             <div className="certificates_tab rb"></div>
           </Link>
         </div>

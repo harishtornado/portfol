@@ -1,0 +1,44 @@
+.Skills {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.Skills .heading {
+    position: absolute;
+    font-size: 200px;
+    color: #000;
+    left: -250px;
+    rotate: -90deg;
+}
+
+.grid_container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 350px;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background: #707070;
+    border-radius: 50px;
+}

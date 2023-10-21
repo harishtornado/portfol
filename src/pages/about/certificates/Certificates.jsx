@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./certificates.css";
 import { data } from "../../../data";
-import { Link } from "react-router-dom";
-import back from "../../../assets/icons/back.png";
 
 const certificates = data.certificates;
 
@@ -20,11 +18,6 @@ const Certificates = () => {
 
   return (
     <div className="Certificates container">
-      <Link to="/about">
-        <div className="back_btn">
-          <img src={back} alt="left-arrow" width={20} height={20} />
-        </div>
-      </Link>
       <div className="left_section">
         <div className="certificates">
           {item?.map((certificate, index) => (
@@ -43,9 +36,8 @@ const Certificates = () => {
           <ul className="category_list">
             {certificates.map((certificate, index) => (
               <li
-                className={`category ${
-                  option === certificate.name ? "active" : null
-                }`}
+                className={`category ${option === certificate.name ? "active" : null
+                  }`}
                 key={index}
                 onClick={() => setOption(certificate.name)}
               >

@@ -1,17 +1,42 @@
 import React from "react";
-import back from "../../../assets/icons/back.png";
-import { Link } from "react-router-dom";
 import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="Projects container">
-      <Link to="/about">
-        <div className="back_btn">
-          <img src={back} alt="left-arrow" width={20} height={20} />
+    <div className="Skills container">
+      <div className="heading">SKILLS</div>
+      <div className="grid_container">
+        <div className="column">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
         </div>
-      </Link>
-      
+        <div className="column">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div><div className="column">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div><div className="column">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div>
+      </div>
     </div>
   );
 };
