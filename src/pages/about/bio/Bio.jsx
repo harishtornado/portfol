@@ -1,7 +1,7 @@
 import React from "react";
 import "./bio.css";
 import { Link } from "react-router-dom";
-import back from "../../../assets/icons/left-arrow.png";
+import back from "../../../assets/icons/back.png";
 
 const Bio = () => {
   return (

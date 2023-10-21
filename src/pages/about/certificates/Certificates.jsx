@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./certificates.css";
 import { data } from "../../../data";
 import { Link } from "react-router-dom";
-import back from "../../../assets/icons/left-arrow.png";
+import back from "../../../assets/icons/back.png";
 
 const certificates = data.certificates;
 

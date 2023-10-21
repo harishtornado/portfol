@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import back from "../../../assets/icons/left-arrow.png";
+import back from "../../../assets/icons/back.png";
 import { Link } from "react-router-dom";
 import next from "../../../assets/icons/right-arrow.png";
+import prev from "../../../assets/icons/left-arrow.png";
 import "./projects.css";
 
 const root = document.querySelector(":root");
@@ -10,32 +11,32 @@ const projects = [
   {
     name: "Projects 1",
     imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
-    link: "https://",
-    desc: "hello",
+    link: "https://github.com/harishtornado/Weather-Buds",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur quibusdam. Dignissimos sit earum labore possimus est veritatis, voluptasborum ut quas nihil doloribus? Fugit quo consequ",
   },
   {
     name: "Projects 1",
     imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
-    link: "https://",
-    desc: "hello",
+    link: "https://github.com/harishtornado/Weather-Buds",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur quibusdam. Dignissimos sit earum labore possimus est veritati, voluptas nonum ut quas nihil doloribus? Fugit quo consequ",
   },
   {
     name: "Projects 1",
     imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
-    link: "https://",
-    desc: "hello",
+    link: "https://github.com/harishtornado/Weather-Buds",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur quibusdam. Dignissimos sit earum labore possimus est veritatis, voluptas orum ut quas nihil doloribus? Fugit quo consequ",
   },
   {
     name: "Projects 1",
     imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
-    link: "https://",
-    desc: "hello",
+    link: "https://github.com/harishtornado/Weather-Buds",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur quibusdam. Dignissimos sit earum labore possimus est veritatis, um ut quas nihil doloribus? Fugit quo consequ",
   },
   {
     name: "Projects 1",
     imgurl: "https://s3-alpha.figma.com/hub/file/3224472774/7ebd86d7-7ff5-4eef-b252-c63a5945ca5f-cover.png",
-    link: "https://",
-    desc: "hello",
+    link: "https://github.com/harishtornado/Weather-Buds",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, aspernatur quibusdam. Dignissimos sit earum labore possimus est veritatis, isi laborum ut quas nihil doloribus? Fugit quo consequ"
   },
 ];
 const Projects = () => {
@@ -64,8 +65,8 @@ const Projects = () => {
         </div>
       </Link>
       <div className="slide_btns">
-        <div className="back btn" onClick={() => slideLeft()}>
-          <img src={back} alt="back_btn" />
+        <div className="prev btn" onClick={() => slideLeft()}>
+          <img src={prev} alt="prev_btn" />
         </div>
         <div className="next btn" onClick={() => slideRight()}>
           <img src={next} alt="next_btn" />
@@ -85,7 +86,7 @@ const Projects = () => {
               </div>
               <div className="heading">{project.name}</div>
               <div className="desc">{project.desc}</div>
-              <a href={project.link}>View</a>
+              <a href={project.link} target="_blank">View</a>
             </div>
           ))}
         </div>
